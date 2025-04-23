@@ -1,0 +1,24 @@
+
+git config --global user.name PedroAntunes19
+git config --global user.email pedroantunes480@gmail.com
+
+Criar um projeto React Native com Expo:
+somente para criar o projeto:
+
+npx create-expo-app@latest AntunesShoppingList --template blank
+
+ cd AntunesShoppingList
+
+Executar o projeto: 
+npx expo start
+--localhost --android
+
+depois:
+cd  AntunesShoppingList
+npm i
+
+pacote web
+
+
+pacote do expo haunter:
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
