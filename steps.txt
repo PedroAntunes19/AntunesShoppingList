@@ -1,0 +1,20 @@
+Configuração do GIT:
+git config --global user.name PedroAntunes19
+git config --global user.email pedroantunes480@gmail.com
+
+Somente para criar o projeto:
+npx create-expo-app@latest AntunesShoppingList --template blank
+
+Continuar a trabalhar:
+cd AntunesShoppingList
+npm i
+
+Rodar o projeto
+npx expo start
+
+Pacote Web
+npx expo install react-dom react-native-web @expo/metro-runtime
+
+Pacote Expo-Router
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
