@@ -1,4 +1,4 @@
-import { Link } from 'expo-router'
+import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
@@ -7,23 +7,23 @@ export default function Welcome() {
     <View style={styles.container}>
       <View style={styles.containerImage}>
         <Image 
-          source={require('../assets/avatar.png')}
+          source={require('../assets/image.png')}
           style={styles.avatar}
         />
       </View>
       <View style={styles.content}>
         <Text style={styles.title}>
-          Antunes Shopping List
+          Chicken's Jr Shopping List
         </Text>
         <Text style={styles.text}>
-          Monte sua lista de compras e não esqueça mais
-          o que precisa comprar ao sair de casa!!!
+          Monte sua lista de compras e não esqueça mais o que precisa comprar ao sair de casa!!!
         </Text>
         <Link style={styles.button} href={"/home"}>
           <Text style={styles.buttonText}>Acessar</Text>
         </Link>
+
       </View>
-      
+
       <StatusBar style="light" backgroundColor='#000' />
     </View>
   );
@@ -45,11 +45,11 @@ const styles = StyleSheet.create({
     borderRadius: 115,
     resizeMode: 'cover',
   },
-  content: {
+  content:{
     flex: 1,
     backgroundColor: '#dadada',
-    borderTopLeftRadius: 25,
-    borderTopRightRadius:25,
+    borderTopRightRadius: 25,
+    BorderTopLeftRadius: 25,
     paddingHorizontal: '5%'
   },
   title: {
@@ -60,12 +60,12 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   text: {
-    fontSize: 16,
+    fontsize: 16,
     color: 'gray',
   },
   button: {
     position: 'absolute',
-    bottom: '10%',
+    bottom: '15%',
     backgroundColor: '#000',
     alignSelf: 'center',
     borderRadius: 50,
@@ -74,8 +74,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   buttonText: {
-    fontSize: 22,
-    color: '#fff',
+    fontsize: 22,
+    color: '#ffffff',
     fontWeight: 'bold'
   }
 });
