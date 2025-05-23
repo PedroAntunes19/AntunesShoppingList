@@ -11479,5 +11479,8 @@
         "url": "https://github.com/sponsors/sindresorhus"
       }
     }
+  },
+  "dependencies": {
+    "expo": "^53.0.9"
   }
 }
